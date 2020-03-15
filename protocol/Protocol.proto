@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package protocol;
+
+option java_package = "com.sujiawei.sim.common.protocol";
+option java_outer_classname = "Protocol";
+
+message Protocol {
+  required String from = 0;
+  required String to = 2;
+  required string msg = 1;
+  required int32 type = 3;
+
+}
+
